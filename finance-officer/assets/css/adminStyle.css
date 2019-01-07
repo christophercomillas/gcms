@@ -1,0 +1,12 @@
+*{
+	font-family: tahoma;
+}
+
+table#request tr:hover{
+	cursor: pointer;
+	background-color: #fff;
+}
+
+.content-header>h1{
+	font-size: 18px;
+}

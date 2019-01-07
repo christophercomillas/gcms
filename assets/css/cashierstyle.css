@@ -1,0 +1,69 @@
+html, body{
+	font-family: tahoma;
+}
+
+body{
+    background-color: #5B6C76;
+    background: url(../images/cashierB.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.panel {
+    margin-bottom: 21px;
+    background-color: #FFF;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-warning {
+}
+
+.panel-heading {
+    padding: 10px 15px;
+}
+
+.panel-warning > .panel-heading {
+    color: #FFF;
+    background-color: #0A61B0;
+    border-color: #0A61B0;
+    border-radius: 0px;
+    border-bottom: 3px #0FAFF3 solid;
+    border-top: 4px #0FAFF3 solid;  
+}
+
+.input-group{
+	border-radius: 0px;
+}
+
+input#username, input#password, input#idnum, #managerkey, .input-group-addon{
+	border-radius: 0px;
+    font-weight: bold;
+    padding: 0 8px;
+    font-size: 16px;
+}
+
+.btn-success {
+    color: #FFF;
+    background-color: #3FB618;
+    border:none;root}
+
+div.alert{
+	background-color: #ff0033;
+	border: none;
+	border-radius: 0px;
+	color:#000;
+}
+
+form#managerLogin{
+	display: none;
+}
+
+label.login_type{
+    font-family: tahoma;
+    font-size: 20px;    
+}
+

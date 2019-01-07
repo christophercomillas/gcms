@@ -1,0 +1,484 @@
+html, body{
+	background-color: #F2F1EF;
+	height: 100%;
+}
+
+.adjust-top{
+	margin-top: 12px;
+}
+
+.btn-side{
+	font-weight: bold;
+	color: #22313F;
+	font-size: 20px;
+}
+
+.items{
+	font-size: 19px;
+	color:#3A539B;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.item-list{
+	max-height: 320px;
+	overflow: auto;
+	min-height: 320px;
+  	overflow-y:scroll;
+	overflow-x:hidden;
+
+}
+
+.items-list-table{
+	font-size: 16px;
+	color:#000000;
+	font-weight: bold;
+}
+
+.status {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.status .panel-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 45px;
+    padding-top: 20px;
+    letter-spacing: -0.8px;
+}
+
+.payment-details{
+	box-shadow: 2px 2px 2px #000;
+	padding: 10px;
+	border: 1px solid #4699C1;
+}
+
+.total-text, .total{
+	color: #FC0F0F;
+}
+
+.scan{
+	padding: 0px;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: right;
+
+}
+
+.total{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.btn-row{
+	padding: 0 16px;
+}
+
+.total-text{
+	padding-top: 30px;
+	text-align: right;
+	font-weight: bold;
+}
+
+footer {
+/*  position: absolute;
+  bottom: 0;
+  left:0;*/
+  z-index: 999;
+  margin-bottom: 0px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 36px;
+  background-color: #2B2B2B;
+  color:#FFF;
+  font-family: tahoma;
+  border-top: 2px solid #F8CB5B;
+}
+
+#date-footer, .date-cas{
+	font-weight: bold;
+	color: #F8CB5B;
+}
+
+.cashiername{
+	font-weight: bold;
+	color: #A4C723;
+}
+
+#time{
+	font-weight: bold;
+	color: #A4C723;
+}
+
+.supkey{
+	font-weight: bold;
+	color: #fc0f0f;
+}
+
+.row .col-md-4 span.date-cas{
+	color: #000000;
+
+}
+
+.frmcash{
+	margin-bottom: 0px;
+}
+
+.footer-info{
+	padding-top: 6px;
+	
+}
+
+.responsecash{
+	margin-bottom: 5px;
+}
+
+#cash,#paymentcash {
+	padding: 0px;
+	font-weight: bold;
+	font-size: 68px;
+	font-family: calibri;
+	height: 70px;
+	line-height: 68px;
+	text-align: right;
+	color:#000;
+}
+
+.btn-d{
+	color: #000;
+	font-family: tahoma;
+	font-weight: bold;
+}
+
+#gc-barcode{
+    padding: 0px;
+    font-size: 3.0em;
+    font-weight: bold;
+}
+
+#print-receipt{
+	display: none;
+	position: absolute;	
+	background-color: #fff;
+	z-index: 2999;	
+	left: 100px;
+	width: 300px;
+	top: -203px;
+	/*top:20px;*/
+	border: 1px solid #000;
+}
+
+#xprintreports{
+	display: none;
+	position: absolute;	
+	background-color: #fff;
+	z-index: 3000;	
+	left: -300px;
+	width: 300px;
+	/*top: -203px; */
+	top:20px;
+	border: 1px solid #000;
+}
+
+#print-receipt h4,h3,h5,p{
+	text-align: center;
+}
+
+h4.official{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h3.store-name{
+	margin-bottom: 0px;
+	margin-bottom: 0px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#print-receipt h5{
+	font-size: 9px;
+}
+
+.modal .modal-dialog{
+    margin-top: 40px;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+
+	-moz-transition-property: none !important;
+	-webkit-transition-property: none !important;
+	-o-transition-property: none !important;
+	transition-property: none !important;
+}
+
+.manager-mode, 
+.payment-mode, 
+.otherincome-mode{
+	display: none;
+}
+
+.credit-card{
+	display: none;
+}
+
+.managerlogin .modal-dialog {
+    width: 300px;
+}
+
+.modal-dialog .modal-header{
+	background-color: #0FAFF3;
+	font-family: tahoma;
+	font-weight: bold;
+}
+
+.modal-dialog .modal-body{
+	background-color: #DADFE1;
+}
+.modal-dialog .modal-header button.close{
+	display: none;
+}
+
+.modal-dialog .modal-footer{
+	padding: 10px;
+}
+
+.payment-cus .modal-dialog {
+    width: 400px;
+}
+
+.gcreturn .modal-dialog {
+    width: 760px;
+}
+
+.gcrevalidate .modal-dialog{
+	 width: 420px;
+}
+
+.confirmation .modal-dialog{
+	top:60px;
+}
+
+
+.payment-cus .modal-dialog p{
+	text-align: left;
+}
+
+.login-supervisor .modal-dialog{
+	width: 300px;
+}
+
+.login-supervisor .modal-dialog p{
+	text-align: left;
+}
+
+.modal-dialog > p,input{
+	margin-bottom: 6px;
+}
+
+.for-modal{
+	padding: 5px;
+	border: 1px solid #fff;
+	font-weight: bold;
+	color:#30CDD7;    
+}
+
+.for-modal-found{
+	padding: 5px;
+	border: 1px solid #fff;
+	font-weight: bold;
+	color:#fff;   
+	background-color:#220090; 
+}
+
+
+.for-modal span{
+	color: #000;
+} 
+
+.for-modal-found span{
+	color:#fff;
+}
+
+.print-report .modal-dialog{
+	width: 400px;
+}
+
+.danger-o{
+	margin-bottom: 0px;
+	font-family: tahoma;
+	font-size: 14px;
+	padding: 6px;
+	font-weight: bold;
+}
+
+.receipt-msg{
+	text-align: center;
+	font-size: 12px;
+}
+
+.receipt-slo{
+	font-size: 11px;
+}
+
+.btn-c{
+	background-color: #017ECA;
+	border: 1px solid #17263B;
+	font-family: tahoma;
+	text-align: left;
+	padding-left: 38px;
+}
+
+span.btn-side{
+	color: #fff;
+}
+
+.btn-c:hover{
+	background-color: #38abed;
+}
+
+span.hotkeyc{
+	color:#000;
+}
+
+.cash-payment .modal-dialog{
+	width: 560px;
+	top: -20px;
+}
+
+.card-payment .modal-dialog{
+	width: 360px;
+	top: -20px;
+}
+
+.adjustop{
+	margin-top: 10px;
+}
+
+.lbl-c{
+	font-weight: bold;
+	font-size: 15px;
+  	padding-left: 5px;
+}
+
+#cardnumber, #authcode, #cardexpired{
+	text-align: right;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	padding: 0px;
+	padding-right: 6px;
+}
+
+#credit{
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	padding: 0px;
+	padding-left: 6px;
+}
+
+input#transno, input#rbarcode{
+	text-align: right;
+    padding: 0 6px;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: tahoma;
+    color: #0B34F1;
+}
+
+.form-group.fg-nobot {
+    margin-bottom: 0px;
+}
+
+.alertmod{
+    margin-bottom: 0px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;	
+}
+
+.form-control.cfrom{
+	padding: 0 6px;
+    line-height: 30px;
+    font-size: 26px;
+}
+
+span.p-credit{
+	font-size: 18px;
+    margin-bottom: 2px;
+}
+
+div.showhide{
+	display: none;
+}
+
+label.control-label.lblsm{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+div.refheader{
+    padding: 6px;
+    background-color: cornsilk;
+    border-bottom: 2px solid;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+div.refdetail{
+	background-color: #fff;
+}
+
+div.refgroup{
+	padding: 0 3px;
+}
+
+input.input-xs{
+    padding: 0 6px;
+    height: 32px;
+    font-weight: bold;
+    color: #0B34F1;
+}
+
+table.reftable{
+    font-size: 14px;
+    text-align: left;
+    border-collapse: collapse;
+    background-color: #B9C9FE;
+}
+
+#print-receipt .cashiername,
+#print-receipt .cashiersig { 
+	text-align: center;
+	font-size: 11px;
+	color:#000;
+}
+
+#print-receipt .cashiersig{
+	margin-bottom: 6px;
+}
+
+#print-receipt .cashiersig span.cashiersigspan{
+	border-top: 1px solid #000;
+}
+
+#print-receipt h3.transactnum{
+	font-size: 11px;
+	text-align: left;
+	padding-left: 20px;
+	font-weight: bold;	
+}
+
+label.adjtop{
+	padding-top: 10px;
+}

@@ -1,0 +1,19 @@
+w = window.open(url, '_blank');
+w.onunload = function(){
+ console.log('closed!');
+}
+w.focus();
+w.print();
+w.close();
+
+ // other ip
+
+$ip = "172.16.16.85";
+$folder = "gui\\"; //- folder g share
+$txt = "textFile.TXT";	// textfile
+$newDir = "$ip\\\\$folder";
+
+//end of other ip
+
+// your ip
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --app=http://172.16.161.34:8080/gc
