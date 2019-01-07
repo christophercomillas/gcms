@@ -4,7 +4,11 @@ Gift Check Monitoring System
 
 ## Built With
 [PHP](http://www.php.net/) -  Hypertext Preprocessor is a server-side scripting language designed for Web development. 
+
 [jQuery](https://jquery.com/) -   is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. 
+
 [Bootstrap](https://getbootstrap.com/) - is a free and open-source front-end framework for developing websites and web applications.
+
 [BootstrapDialog](https://nakupanda.github.io/bootstrap3-dialog/) - Bootstrap Modal
+
 [Crossroads.js](https://millermedeiros.github.io/crossroads.js/) - is a routing library inspired by URL Route/Dispatch utilities present on frameworks like Rails, Pyramid, Django, CakePHP, CodeIgniter, etc...
